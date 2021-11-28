@@ -1,0 +1,2 @@
+
+let binarios = 0;
