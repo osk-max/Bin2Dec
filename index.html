@@ -5,27 +5,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Convert bin - Dec</title>
+  <link rel="preload" href="styles/normalize.css" as="style">
   <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="styles/styles.css" as="style">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <h1>Conversor de binario a decimal</h1>
   </header>
 
   <main>
-    <form>
+    <form class="form">
       <fieldset>
         <legend>Ingresa los datos binarios a convertir</legend>
         <label>Binarios
           <input type="tel" maxlength="8">
         </label>
+
+        <input type="submit" value="Convertir">
         
         <label>Decimal
           <input type="tel" maxlength="8">
         </label>
       </fieldset>
-    </form>
+    </form><!-- .form -->
   </main>
   
   <footer>

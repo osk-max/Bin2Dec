@@ -2,8 +2,42 @@
   --primario:    #FFFFFF;
   --secundario:  #3F4354;
   --colorButon:  #03CC90;
+  --fuentePrincipal: 'Fuzzy Bubbles', cursive;
+}
 
+/* Globales */
 
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  box-sizing: border-box; /* Hack box model */
+}
+*, *:before, *:after { /* Hack box model */
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  line-height: 2;
+  background-color: var(--primario);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/* Form */
+.form {
+  background-color: var(--secundario);
+  width: min(47rem, 100%); /* Utilizar el valor mas pequeño */
+  margin: 0 auto;
+}
+
+.form fieldset {
 
 
 }
+
