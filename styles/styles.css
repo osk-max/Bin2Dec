@@ -32,12 +32,43 @@ body {
 /* Form */
 .form {
   background-color: var(--secundario);
-  width: min(47rem, 100%); /* Utilizar el valor mas pequeño */
+  width: min(75rem, 100%); /* Utilizar el valor mas pequeño */
   margin: 0 auto;
+  border-radius: 1rem;
+  padding: 2rem;
 }
 
 .form fieldset {
+  border: none;
+}
 
+ .form legend {
+  color: var(--primario);
+  font-size: 2.2rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contenedor-campos {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 480px) {
+  .contenedor-campos {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.3rem;  
+  }    
+}
+
+label {
+  color: var(--primario);
+  font-size: 1.8rem
 
 }
+
+
 
