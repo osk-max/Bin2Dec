@@ -27,6 +27,7 @@ body {
   text-align: center;
   font-size: 2rem;
   text-transform: uppercase;
+  margin-top: 8rem;
 }
 
 /* Form */
@@ -36,6 +37,7 @@ body {
   margin: 0 auto;
   border-radius: 1rem;
   padding: 2rem;
+  margin-top: 7rem;
 }
 
 .form fieldset {
@@ -80,6 +82,11 @@ label {
   text-align: center;
 }
 
+.footer {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5rem;
+}
 
 
 
