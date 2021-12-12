@@ -66,9 +66,20 @@ body {
 
 label {
   color: var(--primario);
-  font-size: 1.8rem
-
+  font-size: 1.8rem;
 }
+
+/* Boton */
+.boton {
+  background-color: var(--colorButon);
+  border: none;
+  padding: .5rem;
+  border-radius: .5rem;
+  color: var(--secundario);
+  font-weight: bold;
+  text-align: center;
+}
+
 
 
 
