@@ -19,6 +19,19 @@ function iniciarapp() {
     datoBin[evento.target.id] = evento.target.value;
     
     console.log(datoBin);
+
+    // Validar el formulario - usando destructuracion
+    const { binario } = datoBin;
+    console.log( binario );
+    console.log( typeof binario );
+
+
+    if( datoBin.binario == '0' && datoBin.binario == '1' ) {
+      console.log('Si bien');
+    } else {
+      console.log('Error....')
+    }
+
   });
   
 
